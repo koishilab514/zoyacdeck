@@ -47,6 +47,11 @@ Zoyacdeck is free. If it helps you, you can buy me a coffee ☕
 
 ## Changelog
 
+### 1.0.1 (2026-11-22)
+
+- The panel now snaps to screen edges when you drag it near them. It snaps to both sides in a corner and stays clear of the taskbar. Keep dragging to pull it away. You can turn this off in Settings > General > Position.
+- Scrolling the button editor no longer changes drop-down lists (size, sound and more) or number boxes when the pointer passes over them. They change only when you click.
+
 ### 1.0.0 (2026-11-22)
 
 - First release.
