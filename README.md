@@ -47,6 +47,11 @@ Zoyacdeck is free. If it helps you, you can buy me a coffee ☕
 
 ## Changelog
 
+### 1.0.2 (2026-11-23)
+
+- New monitor brightness button. Scroll over it to change brightness by 5%, or click it to go 30% → 60% → 100%. Change all monitors at once or pick one. External monitors need DDC/CI turned on in the monitor's menu.
+- New calendar button. Click it to open a calendar where you can write a memo for each day. A red dot appears on the button when today has a memo. Add a background picture from "Background" at the top of the calendar.
+
 ### 1.0.1 (2026-11-22)
 
 - The panel now snaps to screen edges when you drag it near them. It snaps to both sides in a corner and stays clear of the taskbar. Keep dragging to pull it away. You can turn this off in Settings > General > Position.
