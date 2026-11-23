@@ -49,6 +49,14 @@ Zoyacdeck is free. If it helps you, you can buy me a coffee ☕
 
 ## Changelog
 
+### 1.0.5 (2026-11-23)
+
+- Fixed recording not starting with the latest ffmpeg (9.1). Older ffmpeg still works.
+- Fixed recording turning into sound only (or stopping) when an administrator prompt or the lock screen appeared. Recording now shows "Briefly paused" while the screen is hidden and picks up again afterwards, saved as one file.
+- Area recording can now be done without sound (Settings > Record > Sound > "Record area selection without sound").
+- Fixed the page and hide box tooltips lingering or popping up at the mouse after you moved away. They now show right above the box and disappear as soon as you leave.
+- With button names hidden, the timer and scheduled shutdown tiles also hide their names while idle and show a larger icon or time. While running, the end time still shows.
+
 ### 1.0.4 (2026-11-23)
 
 - The zip now includes a Japanese guide (README-ja.txt). Settings > About > Open README opens it when the display language is Japanese.
