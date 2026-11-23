@@ -47,6 +47,16 @@ Zoyacdeck is free. If it helps you, you can buy me a coffee ☕
 
 ## Changelog
 
+### 1.0.3 (2026-11-23)
+
+- New video tile. Add one video file, several, or a folder from your PC, and it plays on repeat in the tile (3 wide × 2 tall by default). Sound is off at first; scroll over it to change only this tile's volume. Click to pause or resume; next and previous video are in the right-click menu. It doesn't show up in the media bar or respond to media keys, and it stays sharp even if you lower the panel opacity. It pauses when the panel is hidden or you switch pages.
+- You can now pick the timer alert volume for each button (100%, 75%, 50%, 25%, 10%).
+- New Rows setting: 1, 2 or 3 rows (Settings > Panel). On a 1-row panel, tall buttons show as unavailable tiles and aren't deleted. 3 rows default to the smallest button size, and you can still resize them with Custom (remembered separately). The page boxes fold into 2 columns when the panel is short.
+- Button names can be hidden so icons show larger (Settings > Panel > Button names). By default names hide on 3 rows only, and hovering shows the name.
+- The name sticker (rounded background behind names) can be turned on or off (Settings > Panel). The shutdown and timer tiles now get the same sticker, and short notices like "Volume 40" shrink to fit narrow tiles.
+- Video tiles can now be 5 wide × 3 tall (for 3-row panels). New videos on a 3-row panel start at 5×3.
+- Timer: entering 60 seconds or more turns into minutes automatically (100 sec → 1 min 40 sec).
+
 ### 1.0.2 (2026-11-23)
 
 - New monitor brightness button. Scroll over it to change brightness by 5%, or click it to go 30% → 60% → 100%. Change all monitors at once or pick one. External monitors need DDC/CI turned on in the monitor's menu.
