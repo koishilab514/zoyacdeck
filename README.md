@@ -21,12 +21,14 @@ Get `Zoyacdeck-<version>.zip` from **[the latest release](https://github.com/koi
 - **Sound**: output device and per-program volume panel, one-click device switching, mute a single program, mute your mic.
 - **Record**: record the whole monitor, an area or a window, with just that program's sound if you like. GPU encoding keeps games smooth.
 - **Capture**: area or window screenshots, saved as PNG and copied to the clipboard.
-- **Widgets**: clocks, date, CPU / GPU / RAM usage, timer and stopwatch, scheduled PC shutdown.
+- **Shortcuts**: a button that presses a keyboard shortcut (Ctrl+S, Ctrl+Z, F5 and so on) in the window you're using. Handy for editing and document programs.
+- **Widgets**: clocks, date, CPU / GPU / RAM usage, timer and stopwatch, scheduled PC shutdown, a memo calendar and monitor brightness.
+- **Video**: play your own video files in a tile, on repeat.
 - **Customize**: 5 color themes, your own pictures or animated GIFs on buttons, a background picture, up to 3 pages.
 
 ## Good to know
 
-- Zoyacdeck never presses keys inside other programs.
+- Zoyacdeck presses keys in other programs only when you click a Shortcut button you added.
 - The panel shows over windowed and borderless-fullscreen programs, not exclusive fullscreen.
 - Recording needs the free tool ffmpeg. Settings > Record > "Get ffmpeg" downloads it from the official source.
 - Language: follows your Windows language. Change it in Settings > General > Language.
@@ -47,11 +49,17 @@ Zoyacdeck is free. If it helps you, you can buy me a coffee ☕
 
 ## Changelog
 
+### 1.0.4 (2026-11-23)
+
+- The zip now includes a Japanese guide (README-ja.txt). Settings > About > Open README opens it when the display language is Japanese.
+- New Shortcut key button (Add button > Keyboard). Click the box and press the keys, or pick a common one such as Copy, Undo, Save or Bold. Clicking the button presses that shortcut in the window you're using, which is handy for editing and document programs. Win-key shortcuts work too (tick Win). Programs running as administrator only accept it when Zoyacdeck is also run as administrator.
+- The app icon (four teal squares) is now centered. It used to sit one pixel off toward the bottom right, and its edges are sharper now.
+
 ### 1.0.3 (2026-11-23)
 
 - New video tile. Add one video file, several, or a folder from your PC, and it plays on repeat in the tile (3 wide × 2 tall by default). Sound is off at first; scroll over it to change only this tile's volume. Click to pause or resume; next and previous video are in the right-click menu. It doesn't show up in the media bar or respond to media keys, and it stays sharp even if you lower the panel opacity. It pauses when the panel is hidden or you switch pages.
 - You can now pick the timer alert volume for each button (100%, 75%, 50%, 25%, 10%).
-- New Rows setting: 1, 2 or 3 rows (Settings > Panel). On a 1-row panel, tall buttons show as unavailable tiles and aren't deleted. 3 rows default to the smallest button size, and you can still resize them with Custom (remembered separately). The page boxes fold into 2 columns when the panel is short.
+- New Rows setting: 1, 2 or 3 rows (Settings > Panel). On a 1-row panel, tall buttons show as unavailable tiles and aren't deleted. 3 rows default to the smallest button size, and you can still resize them with Custom (remembered separately). When the panel is short, the page number boxes on the right fold into 2 columns.
 - Button names can be hidden so icons show larger (Settings > Panel > Button names). By default names hide on 3 rows only, and hovering shows the name.
 - The name sticker (rounded background behind names) can be turned on or off (Settings > Panel). The shutdown and timer tiles now get the same sticker, and short notices like "Volume 40" shrink to fit narrow tiles.
 - Video tiles can now be 5 wide × 3 tall (for 3-row panels). New videos on a 3-row panel start at 5×3.
