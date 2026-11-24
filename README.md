@@ -50,6 +50,17 @@ Zoyacdeck is free. If it helps you, you can buy me a coffee ☕
 
 ## Changelog
 
+### 1.0.7 (2026-11-24)
+
+- Sticky notes added: memo notes you can pin to your screen (editor > Other > Sticky note).
+  - Pin them on top with the clip icon. Scroll on the top bar to change transparency.
+  - 4 colors to choose from. Position, size and text are saved.
+  - Click-through lets you click the window behind a note. Hold Ctrl while hovering to turn it off for a moment.
+  - Empty notes are deleted when closed.
+  - Each click on the button opens a new note.
+- Settings, calendar memos and notes no longer get corrupted if the PC shuts down or the app is force-closed. If a file does get damaged, it is restored from a backup.
+- Checks for updates more often: at startup, every hour, and when you open the tray menu or settings.
+
 ### 1.0.6 (2026-11-24)
 
 - With "always on top" off, clicking the panel now brings it in front of other windows. The window you were using stays active. Clicking another window sends the panel back behind it.
