@@ -13,7 +13,7 @@ Get `Zoyacdeck-<version>.zip` from **[the latest release](https://github.com/koi
 
 - Windows 10 / 11 (64-bit)
 - If Windows shows "Windows protected your PC" on first launch, click **More info → Run anyway**. It appears because this is an unsigned personal project.
-- Virus scan (v1.0.5): **[VirusTotal report](https://www.virustotal.com/gui/file/b92630e11feff453e26f94568b91d87dab7f6b09152d261321c1b8b1f3cae65f)**. Microsoft Defender, Kaspersky, Norton, Avast, Bitdefender and other major antivirus products report it clean. A few lesser-known engines flag it, which is common for small unsigned programs.
+- Virus scan: **[VirusTotal report for v1.0.5](https://www.virustotal.com/gui/file/b92630e11feff453e26f94568b91d87dab7f6b09152d261321c1b8b1f3cae65f)** as an example. Microsoft Defender, Kaspersky, Norton, Avast, Bitdefender and other major antivirus products report it clean. A few lesser-known engines flag it, which is common for small unsigned programs. To check the version you downloaded, upload the zip or exe to [virustotal.com](https://www.virustotal.com/).
 
 ## What it does
 
