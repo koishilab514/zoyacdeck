@@ -50,6 +50,10 @@ Zoyacdeck is free. If it helps you, you can buy me a coffee ☕
 
 ## Changelog
 
+### 1.0.6 (2026-11-24)
+
+- With "always on top" off, clicking the panel now brings it in front of other windows. The window you were using stays active. Clicking another window sends the panel back behind it.
+
 ### 1.0.5 (2026-11-23)
 
 - Fixed recording not starting with the latest ffmpeg (9.1). Older ffmpeg still works.
