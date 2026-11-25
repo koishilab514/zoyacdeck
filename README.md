@@ -50,6 +50,10 @@ Zoyacdeck is free. If it helps you, you can buy me a coffee ☕
 
 ## Changelog
 
+### 1.0.8 (2026-11-25)
+
+- Fixed recording not starting with "GPU encoding isn't available" on laptops with two graphics chips (e.g. NVIDIA + AMD or Intel integrated graphics). Encoding is still done by the GPU.
+
 ### 1.0.7 (2026-11-24)
 
 - Sticky notes added: memo notes you can pin to your screen (editor > Other > Sticky note).
