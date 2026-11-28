@@ -48,7 +48,16 @@ Zoyacdeck は無料です。役に立ったら、コーヒー1杯で応援して
 - 制作：koishi514
 - ご質問・不具合の報告：[Issues](https://github.com/koishilab514/zoyacdeck/issues) または koishilab514@naver.com
 
+## 著作権
+
+Copyright © 2026 koishi514. All rights reserved.  
+無料でお使いいただけます。許可なく複製・改変・再配布・販売すること、プログラムを解析してコードを他のプログラムに使うことは禁止です。
+
 ## 更新履歴
+
+### 1.0.10（2026-11-28）
+
+- 使い方（README）と exe のファイルのプロパティに著作権表示を追加しました。機能の変更はありません。
 
 ### 1.0.9（2026-11-25）
 

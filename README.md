@@ -48,7 +48,16 @@ Zoyacdeck is free. If it helps you, you can buy me a coffee ☕
 - Made by koishi514
 - Questions and bug reports: [Issues](https://github.com/koishilab514/zoyacdeck/issues) or koishilab514@naver.com
 
+## Copyright
+
+Copyright © 2026 koishi514. All rights reserved.  
+Zoyacdeck is free to use. Do not copy, modify, redistribute or sell it, or decompile it to reuse its code, without permission.
+
 ## Changelog
+
+### 1.0.10 (2026-11-28)
+
+- Added a copyright notice to the instructions (README) and to the exe's file properties. Nothing else has changed.
 
 ### 1.0.9 (2026-11-25)
 
